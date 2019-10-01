@@ -1,10 +1,11 @@
-#googleMapsContextMenu  
+<h1>googleMapsContextMenu</h1>
+
 Google Maps context menu for Google Maps API
 
 **CDN:**
 https://cdn.jsdelivr.net/gh/MarangoniEduardo/googleMapsContextMenu/googleMapsContextMenu.min.js
 
-**Documentation:**
+**<h3>Documentation:</h3>**  
 
 to initialize use <code>init()</code>;
 
@@ -42,7 +43,7 @@ To make instance of it in your implementation you'll need to do it like this:
     
     let instanceForMyImplementation = new googleMapsontextMenu(map, layout, markers, themeColor, appendDefault);
 
-**Useful data you can get:**  
+**<h3>Useful data you can get:</h3>**  
 -> <code>instanceForMyImplementation.currentInstance</code> gets the contextMenu DOM element reference.
 <br/>
 -> <code>instanceForMyImplementation.markers</code> gets the markers you've passed, if you did.
@@ -56,7 +57,7 @@ To make instance of it in your implementation you'll need to do it like this:
 
 
 
-**Built-in features:**  
+**<h3>Built-in features:</h3>**  
 -> The <code>event: {'eventName' => () => {}}</code> supports all the js native events.  
 <br/> 
 -> <code>add()</code> is for adding new rows to your context menu:
