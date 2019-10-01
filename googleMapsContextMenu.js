@@ -137,17 +137,14 @@ class googleMapsContextMenu {
         });
 
         this.map.addListener(`click`, () => {
-            this.removeAdded();
             this.destroy();
         });
 
         this.map.addListener('dragstart', () => {
-            this.removeAdded();
             this.destroy();
         });
 
         this.map.addListener('bounds_changed', () => {
-            this.removeAdded();
             this.destroy();
         });
 
