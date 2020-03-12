@@ -41,7 +41,7 @@ To make instance of it in your implementation you'll need to do it like this:
     let themeColor = `blue`;
     let appendDefault = false;
     
-    let instanceForMyImplementation = new googleMapsontextMenu(map, layout, markers, themeColor, appendDefault);
+    let instanceForMyImplementation = new googleMapsContextMenu(map, layout, markers, themeColor, appendDefault);
 
 **<h3>Useful data you can get:</h3>**  
 -> <code>instanceForMyImplementation.currentInstance</code> gets the contextMenu DOM element reference.
